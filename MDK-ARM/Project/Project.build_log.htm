@@ -1,0 +1,195 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.41.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: dinh bui, abc, LIC=32B1Q-NAYQ3-DYDV3-ADWY9-30TQI-XDN5A
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.41.0.0
+Toolchain Path:  C:\Users\dinh.bui\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.41.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\CQQ\IDE\Boards\Examples\uart\uart_polling_transmit_receive\MDK-ARM\Project.uvprojx
+Project File Date:  04/08/2025
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'C:\Users\dinh.bui\AppData\Local\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Project'
+After Build - User command #1: C:\Users\dinh.bui\AppData\Local\Keil_v5\\ARM\ARMCLANG\bin\fromelf.exe --bin --output=..\Project.bin Project\Project.axf
+"Project\Project.axf" - 0 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Chipsea
+                
+                Chipsea::CS32L015_DFP@1.0.0
+                Chipsea Technologies(ShenZhen) CS32L0 Series Device Support, Drivers and Examples
+   * Component: ADC Version: 1.0.0
+   * Component: AWT Version: 1.0.0
+   * Component: BASTIM Version: 1.0.0
+   * Component: BEEP Version: 1.0.0
+   * Component: CLKTRIM Version: 1.0.0
+   * Component: CORTEX Version: 1.0.0
+   * Component: CRC Version: 1.0.0
+   * Component: FLASH Version: 1.0.0
+   * Component: FWDT Version: 1.0.0
+   * Component: Framework Version: 1.0.0
+   * Component: GPIO Version: 1.0.0
+   * Component: I2C Version: 1.0.5
+   * Component: LPTIM Version: 1.0.0
+   * Component: LPUART Version: 1.0.5
+   * Component: LVD Version: 1.0.0
+   * Component: OPA Version: 1.0.5
+   * Component: OWI Version: 1.0.0
+   * Component: PCA Version: 1.0.0
+   * Component: PWR Version: 1.0.0
+   * Component: RCC Version: 1.0.5
+   * Component: RTC Version: 1.0.0
+   * Component: SPI Version: 1.0.0
+   * Component: TIM Version: 1.0.0
+   * Component: UART Version: 1.0.5
+   * Component: VC Version: 1.0.5
+   * Component: WWDT Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Project
+  C:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc
+  C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+
+   * Component: Chipsea::Device&Standalone:HAL:ADC@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_adc.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_adc.c
+
+   * Component: Chipsea::Device&Standalone:HAL:AWT@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_awt.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_awt.h
+
+   * Component: Chipsea::Device&Standalone:HAL:BASTIM@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_basetim.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_basetim.c
+
+   * Component: Chipsea::Device&Standalone:HAL:BEEP@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_beep.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_beep.h
+
+   * Component: Chipsea::Device&Standalone:HAL:CLKTRIM@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_clktrim.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_clktrim.h
+
+   * Component: Chipsea::Device&Standalone:HAL:CORTEX@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_cortex.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_cortex.c
+
+   * Component: Chipsea::Device&Standalone:HAL:CRC@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_crc.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_crc.c
+
+   * Component: Chipsea::Device&Standalone:HAL:FLASH@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_flash.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_flash.h
+
+   * Component: Chipsea::Device&Standalone:HAL:FWDT@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_fwdt.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_fwdt.c
+
+   * Component: Chipsea::Device&Standalone:HAL:Framework@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_conf.h
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal.c
+
+   * Component: Chipsea::Device&Standalone:HAL:GPIO@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_gpio.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_gpio.c
+
+   * Component: Chipsea::Device&Standalone:HAL:I2C@1.0.5
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_i2c.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_i2c.c
+
+   * Component: Chipsea::Device&Standalone:HAL:LPTIM@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_lptim.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_lptim.h
+
+   * Component: Chipsea::Device&Standalone:HAL:LPUART@1.0.5
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_lpuart.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_lpuart.c
+
+   * Component: Chipsea::Device&Standalone:HAL:LVD@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_lvd.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_lvd.c
+
+   * Component: Chipsea::Device&Standalone:HAL:OPA@1.0.5
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_opa.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_opa.c
+
+   * Component: Chipsea::Device&Standalone:HAL:OWI@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_owi.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_owi.h
+
+   * Component: Chipsea::Device&Standalone:HAL:PCA@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_pca.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_pca.c
+
+   * Component: Chipsea::Device&Standalone:HAL:PWR@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_pwr.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_pwr.h
+
+   * Component: Chipsea::Device&Standalone:HAL:RCC@1.0.5
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_rcc.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_rcc.c
+
+   * Component: Chipsea::Device&Standalone:HAL:RTC@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_rtc.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_rtc.c
+
+   * Component: Chipsea::Device&Standalone:HAL:SPI@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_spi.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_spi.h
+
+   * Component: Chipsea::Device&Standalone:HAL:TIM@1.0.0
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_tim.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_tim.c
+
+   * Component: Chipsea::Device&Standalone:HAL:UART@1.0.5
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_uart.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_uart.c
+
+   * Component: Chipsea::Device&Standalone:HAL:VC@1.0.5
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_vc.h
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_vc.c
+
+   * Component: Chipsea::Device&Standalone:HAL:WWDT@1.0.0
+      Source file:   Device/Hal_Driver/src/cs32l015_Hal_wwdt.c
+      Include file:  Device/Hal_Driver/inc/cs32l015_Hal_wwdt.h
+
+   * Component: Chipsea::Device&Standalone:Startup@1.0.0
+      Include file:  Device/Include/cs32l015.h
+      Source file:   Device/Source/ARM/startup_cs32l015.s
+      Source file:   Device/Source/system_cs32l015.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>

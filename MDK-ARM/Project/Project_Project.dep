@@ -1,0 +1,1148 @@
+Dependencies for Project 'Project', Target 'Project': (DO NOT MODIFY !)
+CompilerVersion: 6220000::V6.22::.\ARMCLANG
+F (..\Src\main.c)(0x67F4F0D7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/main.o -MMD)
+I (..\Inc\main.h)(0x67F4D403)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+I (..\..\..\..\Common\cs32l015_starterkit.h)(0x67EE1167)
+I (..\..\..\..\Common\io_mapping.h)(0x67E27B24)
+I (..\..\..\..\Common\log.h)(0x642640C5)
+I (..\..\..\..\Common\util.h)(0x63F85BE0)
+F (..\Src\cs32l015_hal_msp.c)(0x67F4E953)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_msp.o -MMD)
+I (..\Inc\main.h)(0x67F4D403)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+I (..\..\..\..\Common\cs32l015_starterkit.h)(0x67EE1167)
+I (..\..\..\..\Common\io_mapping.h)(0x67E27B24)
+I (..\..\..\..\Common\log.h)(0x642640C5)
+I (..\..\..\..\Common\util.h)(0x63F85BE0)
+F (..\Src\cs32l015_it.c)(0x67EE2844)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_it.o -MMD)
+I (..\Inc\main.h)(0x67F4D403)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+I (..\..\..\..\Common\cs32l015_starterkit.h)(0x67EE1167)
+I (..\..\..\..\Common\io_mapping.h)(0x67E27B24)
+I (..\..\..\..\Common\log.h)(0x642640C5)
+I (..\..\..\..\Common\util.h)(0x63F85BE0)
+F (..\..\..\..\Common\log.c)(0x67E36798)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/log.o -MMD)
+I (..\..\..\..\Common\log.h)(0x642640C5)
+I (..\..\..\..\Common\io_mapping.h)(0x67E27B24)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (..\..\..\..\Common\util.c)(0x63F85BE0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/util.o -MMD)
+I (..\..\..\..\Common\util.h)(0x63F85BE0)
+I (..\..\..\..\Common\io_mapping.h)(0x67E27B24)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (..\..\..\..\Common\cs32l015_starterkit.c)(0x63F85BE0)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_starterkit.o -MMD)
+I (..\..\..\..\Common\cs32l015_starterkit.h)(0x67EE1167)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (..\readme.md)(0x63F85BDF)()
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal.c)(0x6489283D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_adc.c)(0x64892829)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_adc.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_awt.c)(0x63B52335)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_awt.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_basetim.c)(0x63ACF172)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_basetim.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_beep.c)(0x63ACF172)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_beep.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_clktrim.c)(0x63B511E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_clktrim.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_cortex.c)(0x63ACE87B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_cortex.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_crc.c)(0x6489342A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_crc.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_flash.c)(0x64892807)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_flash.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_fwdt.c)(0x63B51D1E)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_fwdt.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_gpio.c)(0x63E1A7D4)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_gpio.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_i2c.c)(0x65225AB1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_i2c.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_lptim.c)(0x648927F6)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_lptim.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_lpuart.c)(0x652276E1)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_lpuart.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_lvd.c)(0x63ACF172)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_lvd.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_opa.c)(0x65225560)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_opa.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_owi.c)(0x63B51D2F)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_owi.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_pca.c)(0x64892791)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_pca.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_pwr.c)(0x64893123)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_pwr.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_rcc.c)(0x63F858AF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_rcc.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_rtc.c)(0x64892745)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_rtc.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_spi.c)(0x64892723)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_spi.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_tim.c)(0x63E1ABF2)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_tim.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_uart.c)(0x67EF6573)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_uart.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_vc.c)(0x652252CF)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_vc.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (C:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/src/cs32l015_hal_wwdt.c)(0x63B511E7)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/cs32l015_hal_wwdt.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal.h)(0x63B511E7)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_conf.h)(0x6423D655)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_syscon.h)(0x64892858)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_def.h)(0x648928DD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rcc.h)(0x6522764A)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_gpio.h)(0x65266E70)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_cortex.h)(0x63B5158D)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_adc.h)(0x64892924)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_crc.h)(0x64892EA1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_flash.h)(0x63AD09A1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_i2c.h)(0x63E1ACBD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_fwdt.h)(0x63B51CED)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pwr.h)(0x648928B1)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_rtc.h)(0x63E1ADB0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_spi.h)(0x648988B0)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_tim.h)(0x63E1AE2C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_basetim.h)(0x64892904)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lptim.h)(0x67EB482E)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_uart.h)(0x6489284C)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lpuart.h)(0x65225E18)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_wwdt.h)(0x63B52506)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_beep.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_awt.h)(0x63B52325)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_lvd.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_vc.h)(0x63B4F3B3)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_clktrim.h)(0x63B4F3B4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_pca.h)(0x63E1C6F4)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_owi.h)(0x63B51CE2)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_obytes.h)(0x63ACF172)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc\cs32l015_hal_opa.h)(0x63BCCC53)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015_it.h)(0x63B51266)
+F (RTE/Device/CS32L015/startup_cs32l015.s)(0x63B51266)(--cpu Cortex-M0+ -g --pd "__MICROLIB SETA 1" --diag_suppress=A1950W-I.\RTE\_Project-IC:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include-IC:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\HAL_Driver\inc-IC:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include--pd "__UVISION_VERSION SETA 541"--pd "_RTE_ SETA 1"--list startup_cs32l015.lst--xref -o project\startup_cs32l015.o--depend project\startup_cs32l015.d)
+F (RTE/Device/CS32L015/system_cs32l015.c)(0x6423D64B)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m0plus -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__MICROLIB -gdwarf-4 -O1 -ffunction-sections -Wno-packed -Wno-missing-variable-declarations -Wno-missing-prototypes -Wno-missing-noreturn -Wno-sign-conversion -Wno-nonportable-include-path -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier -I ../../../../Common -I ../Inc -I ../Src -I ./RTE/Device/CS32L015-I./RTE/_Project-IC:/Users/dinh.bui/AppData/Local/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/HAL_Driver/inc-IC:/Users/dinh.bui/Downloads/Chipsea.CS32L015_DFP/Device/Include-D__UVISION_VERSION="541" -D_RTE_-o project/system_cs32l015.o -MMD)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\cs32l015.h)(0x65225E83)
+I (C:\Users\dinh.bui\AppData\Local\Arm\Packs\ARM\CMSIS\6.1.0\CMSIS\Core\Include\core_cm0plus.h)(0x664CB988)
+I (C:\Users\dinh.bui\Downloads\Chipsea.CS32L015_DFP\Device\Include\system_cs32l015.h)(0x64898886)
