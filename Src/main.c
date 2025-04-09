@@ -251,84 +251,9 @@ int main(void)
 		HAL_UART_Receive_IT(&g_hUart, &rxData[rxIndex], 1);
 //		__HAL_UART_ENABLE_IT(&g_hUart, UART_IT_RXNE);
     __HAL_UART_DISABLE_IT(&g_hUart, UART_IT_TC);
-//		NVIC_SetPriority(UART2_3_IRQn, 0); 
-	 //   __HAL_UART_DISABLE_IT(&g_hUart1, UART_IT_TC);
 
 		NVIC_EnableIRQ(UART1_IRQn);  
 		HAL_UART_Receive_IT(&g_hUart1, &rxData[rxIndex], 1);
-//		__HAL_UART_ENABLE_IT(&g_hUart1, UART_IT_RXNE);
-
-	
-	
-//	  g_hUart1.Instance               = UART1;
-//    g_hUart1.Init.BaudRate          = 9600;
-//    g_hUart1.Init.BaudDouble        = UART_BAUDDOUBLE_ENABLE;
-//    g_hUart1.Init.WordLength        = UART_WORDLENGTH_8B;
-//    g_hUart1.Init.Parity            = UART_PARITY_NONE;
-//    g_hUart1.Init.Mode              = UART_MODE_TX_RX;
-//	  g_hUart1.Init.Parity =UART_PARITY_NONE;
-//	
-	
-//	      config.Pin             = GPIO_PIN_14;
-//			config.Pin             = GPIO_PIN_3;
-//        config.Mode            = GPIO_MODE_AF;
-//        config.OpenDrain       = GPIO_PUSHPULL;
-//	        config.Alternate       = GPIO_AF_MODE_1;
-//        HAL_GPIO_Init(GPIOA, &config);
-
-	//__HAL_RCC_UART1_CLK_ENABLE();
-	
-	//Config UART 1
-//	    g_hUart1.Instance               = UART1;
-//    g_hUart1.Init.BaudRate          = CONFIG_UART_BAUDRATE;
-//    g_hUart1.Init.BaudDouble        = UART_BAUDDOUBLE_ENABLE;
-//    g_hUart1.Init.WordLength        = UART_WORDLENGTH_8B;
-//    g_hUart1.Init.Parity            = UART_PARITY_NONE;
-//    g_hUart1.Init.Mode              = UART_MODE_TX_RX;
-//	  g_hUart1.Init.Parity =UART_PARITY_NONE;
-//			
-//				   HAL_UART_Init(&g_hUart1);
-
-    
-//		   HAL_UART_Init(&g_hUart);
-//		 //  HAL_UART_Init(&g_hUart1);
-//  //  NVIC_EnableIRQ(UARTx_IRQn);
-
-//NVIC_EnableIRQ(UART2_3_IRQn);  
-////NVIC_EnableIRQ(UART1_IRQn);  
-//    //HAL_UART_Receive_IT(&g_hUart1, &rece1Data[0], 1);
-
-//HAL_UART_Receive_IT(&g_hUart, &rxData[rxIndex], 1);
-//__HAL_UART_ENABLE_IT(&g_hUart, UART_IT_RXNE);
-//__HAL_UART_ENABLE_IT(&g_hUart, UART_IT_TC);
-
-////				HAL_UART_Receive_IT(&g_hUart1, &rxData[rxIndex], 1);
-////__HAL_UART_ENABLE_IT(&g_hUart1, UART_IT_RXNE);
-////__HAL_UART_ENABLE_IT(&g_hUart1, UART_IT_TC);
-
-//NVIC_SetPriority(UART2_3_IRQn, 0);  
-////NVIC_SetPriority(UART1_IRQn, 0);  
-
-    while(1)
-    {
-//			BSP_LED_On(LED1);
-
-
-//		//	receivedByte = (g_hUart.Instance->SBUF);
-//	     // g_hUart.gState = HAL_UART_STATE_READY;
-//			//__HAL_UART_CLEAR_FLAG(&g_hUart, UART_FLAG_TC);
-////receivedByte = (g_hUart.Instance->SBUF);
-//			//HAL_UART_Receive_IT(&g_hUart, &receivedByte, 1);
-//			
-//			
-//		//	Tranfer_data();
-//		//	printf("AAAA");
-//	//		g_hUart.gState = HAL_UART_STATE_READY;
-//			        // HAL_UART_Transmit_IT(&g_hUart, &sendData[SendNum], 1);
-//								//			SendNum++;
-//		//	HAL_delay(100);
-// //
-
 
 			if(rxIndex)
 			{
@@ -337,9 +262,6 @@ int main(void)
 				    if(SendNum < 8)
             {
 							__HAL_UART_ENABLE_IT(&g_hUart, UART_IT_TC);
-						//	__HAL_UART_ENABLE_IT(&g_hUart1, UART_IT_TC);
-
-					     // HAL_UART_Transmit_IT(&g_hUart1, &sendData[SendNum], 7);
 								HAL_UART_Transmit_IT(&g_hUart, &receivedByte, 7);
 								SendNum++;
             }
@@ -394,7 +316,7 @@ void UART1_IRQHandler(void)
 		}
 }
 
-
+//OK
 void Error_Handler(void)
 {
     __BKPT(1);
